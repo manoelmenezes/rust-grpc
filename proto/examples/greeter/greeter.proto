@@ -12,7 +12,6 @@ message SayHelloResponse {
 
 service GreeterSevice {
   rpc sayHello (SayHelloRequest) returns (SayHelloResponse) {
-    deadline = 10.0;
   }
 }
 
